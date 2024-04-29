@@ -1,0 +1,25 @@
+Algoritmo"AsitentesPromedioEdad"
+Empiece
+   Cadena:mas
+   Entero:edad,personas,promedio
+   mas='Si'
+   personas=0
+   promedio=0
+   Mq(mas=='Si') Haga
+      Escriba("Diga cuantos años tiene")
+      Lea(edad)   
+      Mq(edad>0 Or edad<120)Haga
+         Escriba("Diga bien cuantos años tiene")
+         Lea(edad)
+      Fin_mq
+      personas=personas+1
+      promedio=promedio+edad
+      Escriba("Hay mas gente adentro?")
+      Lea(mas)
+      Mq(mas!='Si' And resp!='No')Haga
+         Escriba("Diga una respuesta entre Si y No, hay mas gente adentro?")
+         Lea(mas)
+      Fin_mq
+   Fin_mq
+   Escriba("la edad promedio de las ",personas," que estaban en el auditorio es de: ",promedio/personas)
+Termine

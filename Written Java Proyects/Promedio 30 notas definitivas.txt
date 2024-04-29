@@ -1,0 +1,14 @@
+Algoritmo"PromedioNotasAprobadas"
+Empiece
+   Real:nota,suma
+   Entero:rep
+   Escriba("Sume 100 números")
+   suma=0
+   notas=0
+   Para rep=0;30;1 Haga
+      Escriba("Diga su nota ",rep+1)
+      Lea(nota)
+      suma=suma+nota
+   Fin_para
+   Escriba("El promedio de todas las notas es ",suma/30)
+Termine

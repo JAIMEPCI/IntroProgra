@@ -1,0 +1,17 @@
+Algoritmo"SumasInfinitas"
+Empiece
+   Entero:n1,n2,resultado
+   Cadena:hacer
+   Escriba("Sumas infinitas")
+   hacer='si'
+   Mq(hacer=='si') Haga
+      Escriba("Diga su primer número")
+      Lea(n1)
+      Escriba("Diga su segundo número")
+      Lea(n2)
+      resultado=n1+n2
+      Escriba("EL resultado de la suma de ",n1,"+",n2," es: ",resultado)
+      Escriba("¿Desea hacer otra suma?")
+      Lea(hacer)
+   Fin_mq
+Termine

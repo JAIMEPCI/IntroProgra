@@ -1,0 +1,27 @@
+Algoritmo"Temperatura"
+Empiece
+   Entero:t1[24],t2[24],com,hora1,hora2
+   Escriba("Algoritmo para comparar temperaturas de 2 días")
+   com=0
+   hora1=0
+   hora2=0
+   Para(hora1=0;24;1)Haga
+      Escriba("Diga la temperatura del DIA 1, en la hora ",(hora1 + 1))
+      Lea(t1[hora1])
+   Fin_para
+   Para(hora2=0;24;1)Haga
+      Escriba("Diga la temperatura del DIA 2, en la hora ",(hora2 + 1))
+      Lea(t2[hora2])
+   Fin_para
+   Para(com=0;24;1)Haga
+      Si(t1[com]!=t2[com])Entonces
+         Si(t1[com]- t2[com]>0)Entonces
+            Escriba("En la hora ",(com + 1)," tuvo una diferencia de: ",t1[com]-t2[com])
+         Sino
+            Escriba("En la hora ",(com + 1)," tuvo una diferencia de: ",t2[com]-t1[com])
+         Fin_si
+      Sino
+         Escriba("En la hora ",(com + 1)," las temperaturas coincidieron")
+      Fin_si
+   Fin_para
+Termine

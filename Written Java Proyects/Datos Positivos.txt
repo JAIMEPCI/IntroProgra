@@ -1,0 +1,9 @@
+1.-pregunta cuantos datos va a poner
+2.-un while,que si es menor o igual a 0
+3.-volver a preguntar cuantos datos quiere poner,preguntando bien
+4.-un para que se repita hasta cumplir ese numero de datos
+5.-pregunta el dato
+6.-compara el dato si es mayor a 0
+7.-si sí, se sube un contador en 1
+8.-escribe la respuesta al usuario
+ 

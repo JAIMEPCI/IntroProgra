@@ -1,0 +1,44 @@
+Empiece 
+   Entero:ahorro,menu,reduccion,aumento
+   ahorro=0
+   menu=0
+   reduccion=0
+   aumento=0
+   Mq menu!=4 Entonces
+      Escriba("""Bienvenido al menu, seleccione una opción:
+      1. Incrementar el ahorro (se acepta desde 100 pesos)
+      2. Reducir el ahorro (máximo la mitad de lo ahorrado)
+      3. Consultar el ahorro
+      4. Terminar el programa""")
+      Lea(menu)
+      switch (menu):
+         case 1:
+            Escriba("Diga en cuanto quiere incrementar el ahorro:")
+            Lea(aumento)
+            Mq aumento<100 Entonces
+               Escriba("Diga en cuanto quiere incrementar el ahorro, recuerde tiene queser mayor a 100*")
+               Lea(aumento)
+            Fin_mq
+            ahorro=ahorro+aumento
+         break
+         case 2:
+            Si ahorro==0 Entonces
+               Escriba("Sus ahorros son de 0 no puede quitarse nada -.-")
+            Sino
+               Escriba("Diga en cuando quiere reducir el ahorro:")
+               Lea(reduccion)
+               Mq reduccion>=(ahorro/2) Entonces
+                  Escriba("Diga en cuando quiere reducir el ahorro, recuerde que solo puede reducir máximo la mitad de lo ahorrado")
+                  Lea(reduccion)
+               Fin_mq
+               ahorro=ahorro-reduccion
+            Fin_si
+         break
+         case 3:
+               Escriba("Sus ahorros son de ",ahorro)
+         break
+         case 4:
+            Escriba("Gracias por utilizar esta app")
+      Fin_switch
+   Fin_mq  
+Termine                

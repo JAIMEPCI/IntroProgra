@@ -1,0 +1,14 @@
+Algoritmo"TablasDeMultiplicar"
+Empiece
+   Entero:n,rep,resultado
+   Cadena:tablas
+   Escriba("Tablas de multiplicar hasta el 20 de su número")
+   Escriba("Diga su número entero")
+   Lea(n)
+   tablas="la tabla de multiplicar de "+n+"\n" 
+   Para rep=1;21;1 Haga
+      resultado=rep*n
+      tablas=tablas+n+" x "+rep+" = "+resultado+"\n"
+   Fin_para
+   Escriba(tablas)
+Termine

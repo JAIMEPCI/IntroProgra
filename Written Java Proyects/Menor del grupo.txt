@@ -1,0 +1,8 @@
+1.-cuantas personas van a responder
+2.-un para hasta cumplir el num de personas
+3.-solicito el nombre de la persona
+4.-solicito su edad
+5.-un while para verificar su edad siendo positiva
+6.-un if si es el menor dato hasta ahora 
+7.-si sí, se almacena el nombre de la persona que este respondiendo en ese momento
+8.-se dice quien es el que tiene menor edad

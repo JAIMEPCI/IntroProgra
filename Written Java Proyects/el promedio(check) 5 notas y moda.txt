@@ -1,0 +1,36 @@
+Algoritmo"NotasPromedio"
+Empiece
+   Entero:nota,sumaa,sumare,rep,apro,repro,mejor
+   Escriba("Promedio de 5 notas")
+   rep=1
+   apro=0
+   repro=0
+   sumaa=0
+   sumare=0
+   mejor=0
+   Mq(rep<6) Haga
+      Escriba("Diga su nota estudiante #",rep)
+      Lea(nota)
+      Mq(nota<0 || nota>50)
+         Escriba("Diga su nota (del 0 al 50), estudiante #",rep)
+      Fin_mq
+      Si(nota>29) Entonces
+         apro=apro+1
+         sumaa=sumaa+nota
+      Sino
+         repro=repro+1
+         sumare=sumare+nota
+      Fin_si
+      Si(mejor<nota) Entonces
+          mejor=rep
+      Fin_si
+      rep=rep+1
+   Fin_mq
+   Si(repro==0) Entonces
+      repro=1
+   Fin_si
+   Si(apro==0) Entonces
+      apro=1
+   Fin_si
+   Escriba("El promedio de las notas aprobadas es de: ",sumaa/apro,"\n El promedio de las notas reprobadas es de: ",sumare/repro,"\n El estudiante con mejor nota fue el #",mejor)
+Termine

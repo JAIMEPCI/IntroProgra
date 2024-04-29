@@ -1,0 +1,18 @@
+Algoritmo"AdivineElNumero"
+Empiece
+   
+   respuesta="los números dentro de el intervalo son: \n"
+   Escriba("Diga el rango inferior")
+   Lea(rinf)
+   Escriba("Diga el rango superior")
+   Lea(rsup)      
+   Mq(rinf>=rsup)Haga
+      Escriba("Diga el rango superior y asegurese que sea menor que el rango inferior")
+      Lea(rsup)
+   Fin_mq
+   Mq(rinf<rsup)Haga
+      rinf=rinf+0.1
+      respuesta=respuesta+rinf+"\n"
+   Fin_mq
+   Escriba(respuesta)   
+Termine

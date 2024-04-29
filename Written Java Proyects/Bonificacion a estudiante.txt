@@ -1,0 +1,23 @@
+Algoritmo"BonificacionEstudiante"
+Empiece
+   Entero:est[25],rep,bon
+   Escriba("Algoritmo estudiante recibe bonificacion")
+   Para(rep=0;25;1)Haga
+      Escriba("Nota del estudiante#",rep+1)
+      Lea(est[rep])
+      Mq(est[rep]>0 Or est[rep]>50)Haga
+         Escriba("Nota del estudiante#",rep+1)
+         Lea(est[rep])
+      Fin_mq   
+   Fin_para
+   Escriba("que estudiante recibira la bonificación")
+   Lea(bon)
+   Mq(bon>26 Or bon<=0)Haga
+      Escriba("que estudiante recibira la bonificación")
+      Lea(bon)
+   Fin_mq   
+   est[bon-1]=est[bon-1]+10
+   Si(est[bon-1]>50)Entonces
+      est[bon-1]=50
+   Fin_si
+Termine

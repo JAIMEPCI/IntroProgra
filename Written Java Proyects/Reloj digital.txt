@@ -1,0 +1,12 @@
+Algoritmo"Horadeldia"
+Empiece
+   Entero:horas,minutos,segundos
+   Escriba("La hora del día")
+   Para horas=0;24;1 Haga
+      Para minutos=0;60;1 Haga
+         Para segundos=0;60;1 Haga
+            Escriba(horas,":",minutos,":",segundos)
+         Fin_para
+      Fin_para
+   Fin_para      
+Termine

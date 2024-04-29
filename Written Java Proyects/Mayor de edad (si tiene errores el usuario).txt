@@ -1,0 +1,15 @@
+Algoritmo"EdadMayorBien"
+Empiece
+   Entero:edad
+   Escriba("Diga su edad")
+   Lea(edad)
+   Mq(edad<=0 Or edad>122) Haga
+      Escriba("edad invalida, diga un número positivo")
+      Lea(edad)
+   Fin_mq
+   Si(edad>17)Entonces
+     Escriba("Eres mayor de edad")
+   Sino
+     Escriba("Eres menor de edad")
+   Fin_si
+Termine

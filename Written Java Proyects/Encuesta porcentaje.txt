@@ -1,0 +1,17 @@
+Algoritmo"Encuestapromedio"
+Empiece
+   Entero:respuesta,rep,respsi,respno
+   Escriba("Promedio de una encuesta")
+   respsi=0
+   respno=0
+   Para rep=1;21;1 Haga
+      Escriba("Le gustan las mascotas?(Diga 1 para si, 2 para no) respuesta # ", rep)
+      Lea(respuesta)
+      Si(respuesta==1)
+         respsi=respsi+1
+      Sino
+         respno=respno+1
+      Fin_si
+   Fin_para
+   Escriba("El ",(repsi/20)*5,"% dijo que si, y el ",(repno/20)*5,"% dijo que no")
+Termine

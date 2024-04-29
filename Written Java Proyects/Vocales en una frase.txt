@@ -1,0 +1,16 @@
+Algoritmo"VocalesFrase"
+Empiece
+   Cadena:letra
+   Entero:vocales
+   Escriba("Cuantas vocales tiene su frase")
+   letra='b'
+   vocales=0
+   Mq(letra!='.') Haga
+      Escriba("Diga la letra")
+      Lea(letra)
+      Si(letra=='a' Or letra=='e' Or letra=='i' Or letra=='o' Or letra=='u' Or letra=='A' Or letra=='E' Or letra=='I' Or letra=='O' Or letra=='U')Entonces
+         vocales=vovales+1
+      Fin_si
+   Fin_mq
+   Escriba("En esa frase hay ",vocales," vocales")
+Termine

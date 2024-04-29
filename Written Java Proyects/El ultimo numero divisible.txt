@@ -1,0 +1,20 @@
+Algoritmo"Divisible"
+Empiece
+   Entero:num[100],rep,divisible
+   Escriba("Vea si el ultimo numero es divisible por cualquiera anterior")
+   Para(rep=0;100;1)Haga
+      Escriba("Diga su numero #,rep+1")
+      Lea(num[rep])
+   Fin_para
+   divisible=0
+   Para(rep=0;99;1)
+      Si(num[rep] Mod num[99]==0)Entonces
+         divisible=1
+      Fin_si
+   Fin_para
+   Si(divisible==1)Entonces
+      Escriba("Si hay un número que divide al ultimo")
+   Sino
+      Escriba("NO hay un número que divide al ultimo")
+   Fin_si
+Termine

@@ -1,0 +1,17 @@
+Algoritmo"CuantosMultiplos"
+Empiece
+   Real:num
+   Entero:rep,cont,cantnum
+   Escriba("Numeros son multiplos de 5")
+   cont=0
+   Escriba("Cuantos números quiere conocer que son multiplos de 5 o no")
+   Lea(cantnum)
+   Para rep=0;cantnum;1 Haga
+      Escriba("Diga su número ",rep+1)
+      Lea(num)
+      Si(num Mod 5==0)Entonces
+         cont=cont+1
+      Fin_si
+   Fin_para
+   Escriba("de los ",cantnum,"números, "cont," números son multiplos de 5")
+Termine

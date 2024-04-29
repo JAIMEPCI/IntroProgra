@@ -1,0 +1,13 @@
+Algoritmo"Sumatoria"
+Empiece
+   Real:resultado
+   Entero:rep,n
+   Escriba("Sumatoria x^2 +8x")
+   Escriba("Sumatoria de cuanto va a ser")
+   Lea(n)
+   resultado=0
+   Para rep=2;n+1;1 Haga
+      resultado=resultado+(rep)^2)+(8*(rep))
+   Fin_para
+   Escriba("El resultado de la sumatoria es: ",resultado)
+Termine

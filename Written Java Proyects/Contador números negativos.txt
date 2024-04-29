@@ -1,0 +1,22 @@
+Algoritmo"MultiplicaciónTresNúmeros"
+Empiece
+   Entero:num1,num2,num3,cont
+   Escriba("Son estos 3 números negativos?")
+   Escriba("Diga su primer numero")
+   Lea(num1)
+   Escriba("Diga su segundo numero")
+   Lea(num2)
+   Escriba("Diga su tercer numero")
+   Lea(num3)
+   cont=0
+   Si(num1<0)Entonces
+      cont=cont+1
+   Fin_si
+   Si(num2<0)Entonces
+      cont=cont+1
+   Fin_si
+   Si(num3<0)Entonces
+      cont=cont+1
+   Fin_si
+   Escriba("Hay ",cont," números negativos")
+Termine

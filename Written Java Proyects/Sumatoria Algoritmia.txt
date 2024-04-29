@@ -1,0 +1,17 @@
+Algoritmo"SumatoriaAlgoritmia"
+Empiece
+   Entero:n,x,sum
+   sum=0
+   x=0
+   Escriba("Diga su número")
+   Lea(n)
+   Mq(n<4)
+      Escriba("Diga su número, mayor a 4")
+      Lea(n)
+   Fin_mq
+   Para x=4;n+1;1 
+      sum = sum + (x * x) + (7 * x) + 3
+   Fin_para
+   Escriba("El resultado de la sumatoria es: ",sum)
+Termine
+//Creado por Jaime Olarte

@@ -1,0 +1,18 @@
+1.-Encuesta a una persona 
+2.-Pregunta si alguien más va a responder
+3.-Por cada respuesta se sube un contador a la respuesta que dijo
+4.-Si hay mas personas se va repitiendo
+5.-Se compara el contador 1 con el 2 y luego el ganador con el 3
+6.-Se presentan los resultados 
+
+con1>cont2 y cont1>cont3
+   cont1==cont2
+   cont1==cont3
+
+      
+cont2>cont1 y cont2>cont3
+cont3>cont1 y cont3> cont2
+
+
+
+

@@ -1,0 +1,15 @@
+Algoritmo"veintiuna"
+Empiece
+   Entero:total,carta
+   Escriba("veintiuna (21)")
+   Mq(suma<21) Haga
+      Escriba("Diga la carta que va a robar")
+      Lea(carta)
+      total=total+carta
+   Fin_mq
+   Si(suma==21)Entonces
+      Escriba("Gano")
+   Sino
+      Escriba("Perdio")
+   Fin_si
+Termine

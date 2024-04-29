@@ -1,0 +1,17 @@
+Algoritmo"PromLitrosModa"
+Empiece
+   Entero:rep
+   Real:lit,mlit,promedio
+   Escriba("Promedio de litros producidos y su mayor productor")
+   promedio=0
+   mlit=0
+   Para rep=1;51;1 Haga
+      Escriba("Diga cuantos litros produjo su vaca # ", rep)
+      Lea(lit)
+      promedio=promedio+lit
+      Si(mlit<lit)Entonces
+         mlit=lit
+      Fin_si
+   Fin_para
+   Escriba("El promedio de litros producidos es de ",promedio/50," y la vaca mas productiva produjo ",mlit," litros")
+Termine

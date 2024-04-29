@@ -1,0 +1,22 @@
+Algoritmo"Positivos"
+Empiece
+   Real:n1[20],p[20]
+   Entero:rep,pos
+   Escriba("Algoritmo que imprime solo datos positivos")
+   pos=0
+   Para(rep=0;20;1)Haga
+      Escriba("Diga el dato #",rep+1)
+      Lea(n1[rep])
+      Si(n1[rep]>0)Entonces
+         p[pos]=n1[rep]
+         pos=pos+1
+      Fin_si
+   Fin_para
+   Si(pos>0)Entonces
+      Para(rep=0;pos;1)Haga
+         Escriba("Casilla ",rep," Número ",p[rep])
+      Fin_para
+   sino
+      Escriba("Todos los números eran negativos")
+   Fin_si
+Termine

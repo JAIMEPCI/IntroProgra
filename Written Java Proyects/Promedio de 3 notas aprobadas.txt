@@ -1,0 +1,31 @@
+Algoritmo"PromedioNotasAprobadas"
+Empiece
+   Entero:n1,n2,n3,notasa,promedio
+   Escriba("Promedio de 3 notas que aprobaron")
+   Escriba("Diga su primera nota")
+   Lea(num1)
+   Escriba("Diga su segunda nota")
+   Lea(num2)
+   Escriba("Diga su tercera nota")
+   Lea(num3)
+   notasa=0
+   promedio=1
+   Si(n1>30 And n2<30 And n3>30)Entonces
+      Escriba("Nadie paso el examen y no hay promedio")
+   Sino
+      si(n1>=30)Entonces
+         notasa=notasa+n1
+         promedio=promedio+1
+      Fin_si
+      si(n2>=30)Entonces
+         notasa=notasa+n2
+         promedio=promedio+1
+      Fin_si
+      si(n3>=30)Entonces
+         notasa=notasa+n3
+         promedio=promedio+1
+      Fin_si
+   Escriba("El promedio de las notas aprobadas es de: ",promedio/notasa)
+   Fin_si   
+Termine      
+   

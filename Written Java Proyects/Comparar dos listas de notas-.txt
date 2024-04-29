@@ -1,0 +1,36 @@
+Algoritmo"CompararNotas"
+Empiece
+   Entero:rep,sw,n1[20],n2[20],dif[20],pos
+   Escriba("Algoritmo que compara dos listas a ver si son iguales")
+   pos=0
+   Para(rep=0;20;1)Haga
+      Escriba("Diga el dato #",rep+1)
+      Lea(n1)
+      Mq(n1[rep]>50 Or n1[rep]<0)Haga
+         Escriba("Diga el dato, bien dicho #",rep+1)
+         Lea(n1)
+      Fin_Mq
+   Fin_para
+   Para(rep=0;20;1)Haga
+      Escriba("Diga el dato #",rep+1)
+      Lea(n2)
+      Mq(n2[rep]>50 Or n2[rep]<0)Haga
+         Escriba("Diga el dato, bien dicho #",rep+1)
+         Lea(n2)
+      Fin_Mq
+   Fin_para
+   Para(rep=0,20;1)Haga
+      Si(n1[rep]!=n2[rep])Entonces
+         dif[pos]=rep+1
+         pos=pos+1
+      Fin_si
+   Fin_para
+   Si(pos>0)Entonces
+      Escriba("Las listas de notas son diferentes en las posiciones ")
+      Para(rep=0;pos;1)Haga
+         Escriba(dif[pos])
+      Fin_para
+   else
+      Escriba("Las listas de notas son iguales")
+   Fin_si
+Termine

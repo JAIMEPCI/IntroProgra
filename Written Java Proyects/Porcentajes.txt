@@ -1,0 +1,11 @@
+1.-para hasta 15
+2.-preguntar la nota
+3.-un while,que si esta fuera de 0 y 50
+4.-volver a preguntar cuantos datos quiere poner,preguntando bien
+5.-compara el dato si es menor a 30
+6.-si sí, sube los reprobados en 1
+7.-compara el dato si es mayor a 30
+8.-si sí, sube los aprobados en 1
+9.-se escribe el total de apro y repro x100 y esto sobre el total de estudiantes
+10.-escribe la respuesta al usuario
+ 

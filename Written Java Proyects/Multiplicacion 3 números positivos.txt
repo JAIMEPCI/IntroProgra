@@ -1,0 +1,27 @@
+Algoritmo"MultiplicaciónTresNúmeros"
+Empiece
+   Entero:num1,num2,num3,mult
+   Escriba("Multiplicación de tres números positivos")
+   Escriba("Diga su primer numero")
+   Lea(num1)
+   Escriba("Diga su segundo numero")
+   Lea(num2)
+   Escriba("Diga su tercer numero")
+   Lea(num3)
+   mult=1
+   Si(num1>0)Entonces
+      mult=mult*num1
+   Fin_si
+   Si(num2>0)Entonces
+      mult=mult*num2
+   Fin_si
+   Si(num3>0)Entonces
+      mult=mult*num3
+   Fin_si
+   Si(num1>0 And num2>0 And num3>0)Entonces
+      Escriba("Todos eran números negativos")
+   Sino
+      Escriba("el resultado de las multiplicaciones da: ",mult)
+   Fin_si
+Termine
+      

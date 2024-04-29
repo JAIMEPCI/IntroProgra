@@ -1,0 +1,16 @@
+Algoritmo"NotaAprobo"
+Empiece
+   Entero:nota
+   Escriba("Nota que aprueba")
+   Escriba("Diga su nota")
+   Lea(nota)
+   Mq(nota<=0 Or nota>=50) Haga
+      Escriba("nota invalida, de la nota")
+      Lea(nota)
+   Fin_mq
+   Si(nota>=30)Entonces
+     Escriba("Aprobaste!")
+   Sino
+     Escriba("No aprobaste vago >:(")
+   Fin_si
+Termine

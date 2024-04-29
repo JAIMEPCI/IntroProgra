@@ -1,0 +1,19 @@
+Algoritmo"ArribaPromedio"
+Empiece
+   Real:suma,promedio,num[10]
+   Entero:arriba,rep
+   Escriba("Algoritmo por encima del promedio")
+   Para(rep=0;10;1)Haga
+      Escriba("Diga el dato#",rep+1)
+      Lea(dato[rep])
+      suma=suma+num[rep]
+   Fin_para
+   prom=suma/10
+   cant=0
+   Para(rep=0;10;1)Haga
+      Si(dato[rep]>prom)Entonces
+         cant=cant+1
+      Fin_si
+   Fin_para
+   Escriba("Hay ",cant," datos por encima del promedio")
+Termine

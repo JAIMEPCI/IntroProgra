@@ -1,0 +1,22 @@
+Entradas: Número cualquiera entero
+Salidas: Resultado del número dado factorial
+
+Paso a paso:
+1- Solicitar el número al usuario
+2- Sacar el factorial del número
+3- Dar al usuario el resultado
+
+
+
+Algoritmo"Factorial"
+Empiece
+   Entero:num,resultado,rep
+   Escriba("Su número factorial")
+   Escriba("Diga su número entero")
+   Lea(num)
+   resultado=1
+   Para rep=1;num+1;1 Haga
+      resultado=resultado*rep
+   Fin_para
+   Escriba("El resultado de ",num," factorial es: ",resultado)
+Termine

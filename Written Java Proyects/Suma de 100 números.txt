@@ -1,0 +1,13 @@
+Algoritmo"PromedioNotasAprobadas"
+Empiece
+   Real:num,suma
+   Entero:rep
+   Escriba("Sume 100 números")
+   suma=0
+   Para rep=0;100;1 Haga
+      Escriba("Diga un número ",rep+1)
+      Lea(num)
+      suma=suma+num
+   Fin_para
+   Escriba("La suma de todos los números es ",suma)
+Termine

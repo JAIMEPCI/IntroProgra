@@ -1,0 +1,23 @@
+Algoritmo"ReubicarMenor"
+Empiece
+   Entero:n[8],rep,uno,dos,t,p
+   Cadena:rta
+   rta="Los datos reorganizados quedan: "
+   Para(rep=0;8;1)Haga
+      Escriba("Diga el dato#",(rep+1)+" :")
+      Lea(n[rep])
+   Fin_para
+   Para(uno=0;7;1)Haga
+      Para(dos=uno+1;8;1)Haga
+         Si(n[uno]>n[dos])Entonces
+            t=n[uno]
+            n[uno]=n[dos]
+            n[dos]=t
+         Fin_si
+      Fin_para
+   Fin_para
+   Para(p=0;8;1)Haga
+      rta=rta+(n[p]+". ")
+   Fin_para
+   Escriba(rta)
+Termine

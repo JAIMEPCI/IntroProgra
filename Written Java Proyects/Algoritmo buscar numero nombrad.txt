@@ -1,0 +1,24 @@
+Algoritmo"BonificacionEstudiante"
+Empiece
+   Entero:num[20],rep,nam,n,band
+   Escriba("Algoritmo ya habia dicho ese numero?")
+   Escriba("Cuantos numeros va a poner")
+   Lea(n)
+   Mq(n<0 Or n>20)Haga
+      Escriba("Error, cuantos numeros va a poner")
+      Lea(n)
+   Fin_mq
+   Para(rep=0;n;1)Haga
+      Escriba("Diga su numero #",rep+1)
+      Lea(num[rep])   
+   Fin_para
+   Escriba("Diga un numero que haya dicho antes")
+   Lea(nam)
+   band=0
+   Para(rep;n;1)Haga
+      Si(num[rep]==nam)Entonces
+         Escriba("el dato esta en la posicion ",rep+1)
+         band=1
+      Fin_si
+   Fin_mq   
+Termine

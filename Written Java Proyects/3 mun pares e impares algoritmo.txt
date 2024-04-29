@@ -1,0 +1,26 @@
+Algoritmo"CantidadParoImpar"
+Empiece
+   Entero:num1,num2,num3,cpar,cimpar
+   Escriba("Mire si sus 3 números son par o impar")
+   Escriba("Diga su primer numero")
+   Lea(num1)
+   Escriba("Diga su segundo numero")
+   Lea(num2)
+   Escriba("Diga su tercer numero")
+   Lea(num3)
+   par=0
+   impar=3
+   si(num1 Mod 2==0)Entonces
+      cpar=cpar+1
+   Fin_si
+   si(num2 Mod 2==0)Entonces
+      cpar=cpar+1
+   Fin_si
+   si(num3 Mod 2==0)Entonces
+      cpar=cpar+1
+   Fin_si
+   Escriba(cpar," numeros son pares y ",cimpar-cpar,"son par")
+Termine   
+   
+   
+   

@@ -1,0 +1,20 @@
+Algoritmo"PromedioNotas"
+Empiece
+   Entero:nota,promedio,aprobados,rep,rep1,total
+   Escriba("Tablas de multiplicar hasta el 20 de su número")
+   aprobados=0
+   Para rep=1;21;1 Haga
+      suma=0
+      Para rep1=1;11;1 Haga
+         Escriba("Diga la nota #",rep1," del estudiante #",rep)
+         Lea(nota)
+         total=nota+total
+      Fin_para
+      promedio=total/10
+      Escriba("La definitiva del estudiante #"rep," es",promedio)
+      Si(promedio>=30)
+         aprobados=aprobados+1
+      Fin_si
+   Fin_para
+   Escriba("Aprobaron ",aprobados," estudiantes")
+Termine

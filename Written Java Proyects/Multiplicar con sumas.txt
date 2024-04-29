@@ -1,0 +1,29 @@
+Algoritmo"MultiplicarConSumas"
+Empiece
+   Entero:n1,resultado,n2,rep1,rep2,rep3
+   Escriba("Multiplicación usando solo sumas y restas")
+   Escriba("Diga su primer número entero")
+   Lea(n1)
+   Escriba("Diga su segundo número entero")
+   Lea(n2)
+   resultado=0
+   Si(n1>0)Entonces
+      Para(rep1=0;n1;1)Haga
+         resultado=resultado+n2
+      Fin_Para
+   Fin_Si
+   Si(n1<0)Entonces
+      Para(rep2=0;n2;1)Haga
+         resultado=resultado+n1
+      Fin_Para
+   Fin_Si
+   Si(n2<0)Entonces
+      Para(rep3=0;-n1;1)Haga
+         resultado=resultado-n2
+      Fin_Para
+   Fin_Si
+   Si(n1==0 Or n2==0)Entonces
+      resultado=0
+   Fin_Si
+   Escriba("El resultado de ",n1," x ",n2," es: ",resultado)
+Termine

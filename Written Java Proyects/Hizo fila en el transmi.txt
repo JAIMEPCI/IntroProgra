@@ -1,0 +1,15 @@
+Algoritmo"NotaAprobo"
+Empiece
+   Cadena:Resp
+   Escriba("Usted hizo fila en el transmi?")
+   Lea(resp)
+   Mq(resp!='Si' And resp!='No') Haga
+      Escriba("Diga una respuesta entre Si y No, usted hizo fila en el transmi?")
+      Lea(resp)
+   Fin_mq
+   Si(resp=='Si')Entonces
+     Escriba("Felicidades,sigue así")
+   Sino
+     Escriba("El pato paga")
+   Fin_si
+Termine
